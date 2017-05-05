@@ -1,0 +1,29 @@
+.activity-list-item {
+	display: flex;
+	flex-direction: column;
+}
+
+.activity-list-item:active {
+	background-color: #ececec;
+}
+
+.activity-list-item .divider {
+	height: 1px;
+	background-color: #e5e5e5;
+}
+
+.activity-list-item .activity-title {
+	display: block;
+	color: #000;
+	font-size: 17pt;
+	height: 25px;
+	margin: 10px;
+}
+
+.activity-list-item .activity-description {
+	display: block;
+	color: #888;
+	font-size: 14pt;
+	height: 22px;
+	margin: 0 10px 10px;
+}

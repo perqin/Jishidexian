@@ -1,0 +1,12 @@
+<view class="activity-container">
+  <view class="header-view">
+    <view class="title">
+      <text>{{activity.Title}}</text>
+    </view>
+    <view class="description">
+      <text>{{activity.Description}}</text>
+    </view>
+  </view>
+  <canvas class="periods-canvas" canvas-id="periodsCanvas" disable-scroll="true"
+      bindtouchstart="ceTouchStart" bindtouchmove="ceTouchMove" bindtouchend="ceTouchEnd" bindtouchcancel="ceTouchCancel" />
+</view>

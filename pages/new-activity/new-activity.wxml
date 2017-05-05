@@ -1,0 +1,37 @@
+<view class="new-activity-container">
+  <form bindsubmit="fmSubmit">
+    <view class="form-entry">
+      <text class="form-entry-title">标题</text>
+      <input class="form-entry-value" name="title" value="{{title}}" bindinput="fmTitleInput" type="text" placeholder="活动标题" confirm-type="next" confirm-hold="true" />
+    </view>
+    <view class="form-entry">
+      <text class="form-entry-title">描述</text>
+      <input class="form-entry-value" name="description" value="{{description}}" bindinput="fmDescriptionInput" type="text" placeholder="活动描述" confirm-type="done" />
+    </view>
+    <view class="form-entry">
+      <text class="form-entry-title">开始日期</text>
+      <picker class="form-entry-value" name="startDate" value="{{startDate}}" bindchange="fmStartDateChange" mode="date">
+        <view>{{startDate}}</view>
+      </picker>
+    </view>
+    <view class="form-entry">
+      <text class="form-entry-title">结束日期</text>
+      <picker class="form-entry-value" name="endDate" value="{{endDate}}" bindchange="fmEndDateChange" mode="date">
+        <view class="picker">{{endDate}}</view>
+      </picker>
+    </view>
+    <view class="form-entry">
+      <text class="form-entry-title">开始时间</text>
+      <picker class="form-entry-value" range="{{startTimeRange}}" name="startTime" value="{{startTime}}" bindchange="fmStartTimeChange" mode="selector">
+        <view class="picker">{{startTime}}</view>
+      </picker>
+    </view>
+    <view class="form-entry">
+      <text class="form-entry-title">结束时间</text>
+      <picker class="form-entry-value" range="{{endTimeRange}}" name="endTime" value="{{endTime}}" bindchange="fmEndTimeChange" mode="selector">
+        <view class="picker">{{endTime}}</view>
+      </picker>
+    </view>
+    <button class="primary-large-button" formType="submit">完成</button>
+  </form>
+</view>

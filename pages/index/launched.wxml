@@ -1,0 +1,11 @@
+<view class="launched-container">
+  <scroll-view class="activities-list">
+    <view class="activity-list-item" wx:for="{{launchedActivities}}" bindtap="activityTap" data-objectid="{{item.objectId}}">
+      <view class="divider" wx:if="{{index==0}}" />
+      <text class="activity-title">{{item.Title}}</text>
+      <text class="activity-description">{{item.Description}}</text>
+      <view class="divider" />
+    </view>
+  </scroll-view>
+  <button class="launch-new-button primary-large-button" bindtap="ntNewActivity">发起</button>
+</view>

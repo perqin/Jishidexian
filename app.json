@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/launched",
+    "pages/index/participated-in",
+    "pages/index/help",
+    "pages/activity/activity",
+    "pages/new-activity/new-activity"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "几时得闲",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/launched",
+      "text": "我发起的",
+      "iconPath": "icons/tab-launched-normal.png",
+      "selectedIconPath": "icons/tab-launched-selected.png"
+    }, {
+      "pagePath": "pages/index/participated-in",
+      "text": "我参与的",
+      "iconPath": "icons/tab-participated-in-normal.png",
+      "selectedIconPath": "icons/tab-participated-in-selected.png"
+    }, {
+      "pagePath": "pages/index/help",
+      "text": "如何使用",
+      "iconPath": "icons/tab-help-normal.png",
+      "selectedIconPath": "icons/tab-help-selected.png"
+    }]
+  }
+}

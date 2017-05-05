@@ -1,0 +1,47 @@
+/**app.wxss**/
+
+page {
+	height: 100%;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.primary-large-button {
+	color: #fff;
+	background-color: #1aad19;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.primary-large-button:active {
+	background-color: #179B16;
+}
+
+/*Form related*/
+form .form-entry {
+  display: flex;
+  padding: 10px;
+}
+
+form .form-entry-title {
+  display: block;
+  width: 85px;
+  height: 30px;
+  margin: 0;
+}
+
+form .form-entry-value {
+  display: block;
+  flex-grow: 1;
+  padding-left: 5px;
+  height: 30px;
+  margin: 0;
+}

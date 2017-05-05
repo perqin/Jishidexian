@@ -1,0 +1,4 @@
+.help-text-container text {
+	display: block;
+	margin: 5px 15px;
+}

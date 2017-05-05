@@ -1,0 +1,29 @@
+.activity-container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.header-view {
+	flex-shrink: 1;
+	height: 77px;
+}
+
+.title {
+	height: 25px;
+	padding: 10px 15px;
+	font-size: 17pt;
+	color: #000;
+}
+
+.description {
+	height: 22px;
+	padding: 0 15px 10px;
+	font-size: 14pt;
+	color: #888;
+}
+
+.periods-canvas {
+	flex-grow: 1;
+	width: 100%;
+}

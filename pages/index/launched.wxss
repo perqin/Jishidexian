@@ -1,0 +1,17 @@
+/* pages/index/launched.wxss */
+
+@import "activity-list.wxss";
+
+.launched-container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.activities-list {
+	flex-grow: 1;
+}
+
+.launch-new-button {
+	flex-shrink: 1;
+}
